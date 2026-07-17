@@ -15,7 +15,7 @@ class Solution:
             # choice 2 -> exclude it
             subset.pop()
             # explore without it
-            dfs(i+1)
+            dfs(i+1
 
         
         dfs(0)
