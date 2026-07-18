@@ -7,7 +7,7 @@ class Solution:
             if i >= len(nums):
                 res.append(subset.copy())
                 return
-            
+
             # choice 1 ->  pick it
             subset.append(nums[i])
             # explore
@@ -17,7 +17,6 @@ class Solution:
             # explore without it
             dfs(i+1
 
-        
+
         dfs(0)
         return res
-
